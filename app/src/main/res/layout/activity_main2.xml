@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.buguina.craversappproject.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:background="@android:color/holo_orange_light"
+            android:entries="@array/around_ust"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/b_cafes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cafes"
+            android:background="#00000000"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/b_dining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dining"
+            android:background="#00000000"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/b_delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delivery"
+            android:background="#00000000"
+            android:textColor="#000000"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?attr/colorControlHighlight" />
+
+        <Spinner
+            android:id="@+id/spin_milktea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:background="@android:color/white"
+            android:entries="@array/milktea"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?attr/colorControlHighlight" />
+
+        <Spinner
+            android:id="@+id/spin_shakes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:background="@android:color/white"
+            android:entries="@array/shakes"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?attr/colorControlHighlight" />
+
+        <Spinner
+            android:id="@+id/spin_juices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:background="@android:color/white"
+            android:entries="@array/juices"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="0.09dp"
+            android:src="@drawable/craverslogo" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

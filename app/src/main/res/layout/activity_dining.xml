@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.buguina.craversappproject.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Spinner
+            android:id="@+id/spin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:background="@android:color/holo_orange_light"
+            android:entries="@array/around_ust"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/cafes_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:onClick="cafes_more"
+            android:text="CAFES AND MORE"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/dining_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:onClick="dining_out"
+            android:text="DINING OUT"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cafes_more"
+            android:text="DELIVERY"
+            android:textColor="@android:color/background_dark"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="delivery"/>
+
+        <TextView
+            android:id="@+id/desserts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESSERTS"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="desserts"/>
+
+        <TextView
+            android:id="@+id/drinks_night"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DRINKS AND NIGHT LIFE"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="drinks_night"/>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDENT BUDGET MEAL"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.28"
+            android:background="?attr/colorControlHighlight"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLASSIC MEAL"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.34"
+            android:background="?attr/colorControlHighlight" />
+
+    </LinearLayout>
+
+</RelativeLayout>

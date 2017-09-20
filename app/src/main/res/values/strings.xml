@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CraversApplication</string>
+    <string-array name="around_ust">
+        <item>DAPITAN</item>
+        <item>PNOVAL</item>
+        <item>ESPANA</item>
+        <item>LACSON</item>
+    </string-array>
+
+    <string-array name="milktea">
+        <item>MILKTEA</item>
+        <item>AMO YAMIE</item>
+        <item>AMORE</item>
+        <item>GON CHA</item>
+        <item>D CREAM</item>
+        <item>KHIVAN</item>
+        <item>CAFE UK</item>
+        <item>DAKASI</item>
+        <item>I LOVE MILKTEA</item>
+        <item>BEAN LEAF</item>
+    </string-array>
+
+    <string-array name="shakes">
+        <item>SHAKES</item>
+        <item>AMO YAMIE</item>
+        <item>FRUITAS</item>
+        <item>ZAGU</item>
+        <item>STARRS</item>
+        <item>CAFE UK</item>
+        <item>FARRON</item>
+    </string-array>
+
+    <string-array name="juices">
+        <item>JUICES</item>
+        <item>FRUITAS</item>
+        <item>CAFE UK</item>
+    </string-array>
+
+    <string name="cafes"><u>Cafes and More</u></string>
+    <string name="dining"><u>Dining Out</u></string>
+    <string name="delivery"><u>Delivery</u></string>
+</resources>
